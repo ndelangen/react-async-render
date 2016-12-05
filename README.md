@@ -51,7 +51,7 @@ MyComponent.contextTypes = {
 reactMixin(MyComponent.prototype, AsyncRender.mixin);
 ~~~~
 
-Then register async actions in Component's `consturctor` method, or `componentWillMount` method
+Then register async actions in Component's `constructor` method, or `componentWillMount` method
 
 ~~~~js
 constructor(props, context){
